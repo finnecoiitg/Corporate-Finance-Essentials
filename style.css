@@ -619,13 +619,16 @@
       justify-content: center;
     }
   
-    .course-logo-link { order: 3; width: 100%; justify-content: center; }
+    .course-logo-link { order: 3; width: 100%; justify-content: center; display: none; }
     .logo-text.cfe-text { max-width: none; }
   
     .nav-links { order: 2; }
   
     .resources-grid {
       grid-template-columns: 1fr;
+    }
+    .hero-by{
+      margin-top: 5rem;
     }
   }
   
